@@ -5,5 +5,6 @@ from LogType import LogType
 
 class AbstractLogger(ABC):
     @abstractmethod
-    def log(self, message,logType:LogType):
+    def log(self, message:str,logType:LogType):
         pass
+
